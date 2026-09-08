@@ -1821,3 +1821,45 @@ header {
         padding: 25px 20px;
     }
 }
+.menu-promociones a {
+    background: var(--color-principal);
+    color: white !important;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.menu-promociones a:hover {
+    background: var(--color-principal-dark);
+    color: white !important;
+}
+
+.menu-promociones a::after {
+    display: none;
+}
+/* ==================== FOOTER NUEVO ==================== */
+
+.footer-box p {
+    margin-bottom: 12px;
+}
+
+.footer-box p i {
+    width: 22px;
+    margin-right: 8px;
+    font-size: 17px;
+    color: var(--color-principal);
+}
+
+.footer-box a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.footer-box a:hover {
+    color: var(--color-principal);
+}
+
+.footer-box a:hover i {
+    color: var(--color-principal);
+}
